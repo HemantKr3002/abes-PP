@@ -32,8 +32,8 @@
 
 #nav h3:hover{
     border-radius: 40% 0;
-    animation-timing-function: ease-in-out;
-    animation-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
 }
 
 #logo{
@@ -45,7 +45,7 @@
 }
 
 #logo:hover{
-    border: 4px dotted blue;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    border: 5px dotted blue;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
 }
